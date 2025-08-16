@@ -1,13 +1,26 @@
 {
   "name": "elmajon",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/Lucas-Sponton/elmajon#readme",
+  "bugs": {
+    "url": "https://github.com/Lucas-Sponton/elmajon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-Sponton/elmajon.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sass": "sass src/assets/scss/styles.scss src/assets/css/styles.css --watch"
   },
   "dependencies": {
     "react": "^19.1.1",
