@@ -1,0 +1,21 @@
+@use '../abstractos/variables' as v;
+
+
+.pie-de-pagina {
+    background-color: v.$primary-color;
+    padding: v.$spacing-base;
+    text-align: center;
+    color: v.$secondary-color;
+    
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: v.$primary-color;
+    color: v.$secondary-color;
+    text-align: center;
+    padding: 10px;
+}

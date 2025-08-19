@@ -1,0 +1,13 @@
+@use '../abstractos/_variables' as v;
+@use '../abstractos/_mixins' as mix;
+
+
+
+.encabezado {
+    background-color: v.$primary-color;
+    padding: v.$spacing-base;
+    text-align: center;
+    color: v.$secondary-color;
+    @include mix.flex-center;
+    @include mix.responsive-text(2.5rem, 3.5rem);
+}

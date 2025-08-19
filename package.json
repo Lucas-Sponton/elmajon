@@ -20,7 +20,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sass": "sass src/assets/scss/styles.scss src/assets/css/styles.css --watch"
+    "sass": "sass src/Styles/scss/styles.scss src/Styles/css/styles.css --watch"
   },
   "dependencies": {
     "react": "^19.1.1",
